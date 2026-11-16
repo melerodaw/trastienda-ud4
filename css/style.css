@@ -1,0 +1,25 @@
+:root {
+  --color-background: #0f172a;
+  --color-surface: #1e293b;
+  --color-text: #e2e8f0;
+  --color-accent: #22d3ee;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: var(--color-surface);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+h1 {                  
+  color: var(--color-accent);
+  font-size: 2.25rem;
+}
